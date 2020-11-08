@@ -10,8 +10,8 @@
         }
     },
     "variables": {
-        "acr_name": "igniteDevACR",
-        "aks_name": "igniteDevAKS"
+        "acr_name": "devACR",
+        "aks_name": "devAKS"
     },
     "resources": [
         {

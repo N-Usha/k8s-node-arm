@@ -10,7 +10,7 @@
         }
     },
     "variables": {
-        "aks_name": "igniteProdAKS"
+        "aks_name": "prodAKS"
     },
     "resources": [
         {

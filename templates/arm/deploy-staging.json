@@ -10,7 +10,7 @@
         }
     },
     "variables": {
-        "aks_name": "igniteStagingAKS"
+        "aks_name": "stagingAKS"
     },
     "resources": [
         {
