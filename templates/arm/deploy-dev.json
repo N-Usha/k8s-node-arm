@@ -10,22 +10,9 @@
         }
     },
     "variables": {
-        "acr_name": "githubactionacr",
         "aks_name": "devAKS"
     },
     "resources": [
-        {
-            "type": "Microsoft.ContainerRegistry/registries",
-            "sku": {
-                "name": "Standard"
-            },
-            "name": "[variables('acr_name')]",
-            "apiVersion": "2017-10-01",
-            "location": "southcentralus",
-            "properties": {
-                "adminUserEnabled": true
-            }
-        },
         {
             "type": "Microsoft.ContainerService/managedClusters",
             "name": "[variables('aks_name')]",
@@ -62,10 +49,6 @@
         }
     ],
     "outputs": {
-        "acr": {
-            "type": "string",
-            "value": "[variables('acr_name')]"
-        },
         "aks": {
             "type": "string",
             "value": "[variables('aks_name')]"
