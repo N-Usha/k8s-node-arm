@@ -5,7 +5,7 @@ on:
 
 
 env:
-  REGISTRY_NAME: devACR
+  REGISTRY_NAME: githubactionacr
 
   DEV_CLUSTER_NAME: devAKS
   STAGING_CLUSTER_NAME: stagingAKS

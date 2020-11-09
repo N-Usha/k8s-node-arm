@@ -10,7 +10,7 @@
         }
     },
     "variables": {
-        "acr_name": "devACR",
+        "acr_name": "githubactionacr",
         "aks_name": "devAKS"
     },
     "resources": [
@@ -21,7 +21,7 @@
             },
             "name": "[variables('acr_name')]",
             "apiVersion": "2017-10-01",
-            "location": "eastus",
+            "location": "southcentralus",
             "properties": {
                 "adminUserEnabled": true
             }
