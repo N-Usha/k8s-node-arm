@@ -12,3 +12,9 @@ it('Base test', function(done) {
     expect(1).to.equal(1);
     done();
 });
+
+it('Base test', function(done) {
+    expect(2).to.equal(2);
+    done();
+});
+
